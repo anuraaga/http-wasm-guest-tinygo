@@ -8,7 +8,7 @@ test:
 
 .PHONY: test.e2e
 test.e2e:
-	@cd internal && go test ./... -v -timeout 120s
+	@cd internal/e2e && go test ./... -v -timeout 120s
 
 .PHONY: build.e2e
 build.e2e:
