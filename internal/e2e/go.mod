@@ -3,10 +3,8 @@ module github.com/http-wasm/http-wasm-guest-tinygo/internal
 go 1.18
 
 require (
-	github.com/http-wasm/http-wasm-guest-tinygo v0.0.0
 	github.com/http-wasm/http-wasm-host-go v0.0.0-20221005080711-5b05de8a28f2
 	github.com/stretchr/testify v1.8.0
-
 )
 
 require (
